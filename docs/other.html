@@ -92,7 +92,7 @@ circle:hover {
 <body>
 <div class="container" style="padding: 40px; text-align: center">
     <h1>Gradient Optimizers</h1>
-    <a href="other.html" class="button">demo - 2</a>
+    <a href="index.html" class="button">demo - 1</a>
 </div>
 <div class="container" id="main" style="text-align:center">
 </div>
@@ -186,7 +186,7 @@ var function_g = svg.append("g").on("mousedown", mousedown),
 
 /* Value of f at (x, y) */
 function f(x, y) {
-    return -2 * Math.exp(-((x - 1) * (x - 1) + y * y) / .2) + -3 * Math.exp(-((x + 1) * (x + 1) + y * y) / .2) + x*x  + y*y ;
+    return   x*x*x  +  x*x  + y*y ;
     // return x*y;
 }
 
